@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>미디어쿼리를 이용한 맞춤형 스타일</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <link href="mobile.css" rel="stylesheet" type="text/css" media="screen and (max-width:799px)">
+    <link href="pc.css" rel="stylesheet" type="text/css" media="screen and (min-width:800px)">
+    <style>
+        @font-face {
+            font-family: Namsan;
+            src: url("08SeoulNamsanB.ttf");
+        }
+        p{font-family: Namsan;}
+    </style>
+    <script src='main.js'></script>
+</head>
+<body>
+    <div id="pc_view">
+        <h1>데스크탑 PC화면</h1>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Fuga expedita minima dolorem distinctio eius repellendus perspiciatis eveniet aut deserunt necessitatibus inventore, doloribus reiciendis dolore odit doloremque fugiat similique aspernatur tempora quaerat sint ratione recusandae quibusdam. Beatae nobis reprehenderit temporibus repellendus explicabo commodi, aspernatur a, similique tenetur aliquid totam facilis ut?</p>
+    </div>
+
+    <div id="mobile_view">
+        <h1>핸드폰 모바일화면</h1>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugit blanditiis delectus quam fugiat quisquam iusto deleniti tempora consectetur? Impedit assumenda quos explicabo, aliquid vitae iste ipsa? Magni eius et sunt commodi delectus obcaecati ad dolore eos est. Maxime soluta officia unde saepe minus nostrum tempore ipsam laborum. Aut, repudiandae quos.</p>
+    </div>
+</body>
+</html>

@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>Jquery Mobile UI 시작하기</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <link rel="stylesheet" href="https://code.jquery.com/mobile/1.0/jquery.mobile-1.0.min.css"/>
+    <script type="text/javascript" src="https://code.jquery.com/jquery-1.6.4.min.js"></script>
+    <script type="text/javascript" src="https://code.jquery.com/mobile/1.0/jquery.mobile-1.0.min.js"></script>
+</head>
+<body>
+    <div data-role="page" id="main">
+        <div data-role="header" data-theme="e">
+            <h1>Main 페이지</h1>
+        </div>
+        <div data-role="content">
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quam nemo adipisci quidem error alias dolorum, dolor perferendis aperiam modi impedit ipsa illo velit accusamus iure iste tenetur ullam cupiditate. Pariatur quo velit unde deserunt, fugit, veniam accusamus error exercitationem itaque aperiam quos repellat sit magni culpa nihil, quis inventore ducimus!</p>
+            <ul data-role="listview">
+                <li data-role="list-divider">내부 도메인</li>
+                <li><a href="sub.html" target="_self">외부 서브페이지로 이동</a></li>
+                <li><a href="#sub">내부 서브페이지로 이동</a></li>
+                <li><a href="#sub2" data-rel="dialog">서브2페이지로 이동</a></li>
+                <li data-role="list-divider">외 도메인</li>
+                <li><a href="https://google.com">구글</a></li>
+            </ul>
+        </div>
+        <div data-role="footer">
+            <h2>인천일보 아카데미</h2>
+        </div>
+    </div>
+
+    <div data-role="page" id="sub">
+        <div data-role="header" data-theme="e">
+            <h1>Sub 페이지</h1>
+        </div>
+        <div data-role="content">
+            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Sapiente a assumenda provident deleniti. Voluptates praesentium veritatis dolorum neque et ex, ullam in obcaecati sint nihil quaerat labore eum consectetur magnam similique incidunt repellendus impedit modi sapiente? Iure tenetur consequuntur odio est nemo obcaecati quidem sint ut, cumque voluptatibus porro cum sit hic, non totam. Nesciunt nulla esse blanditiis, fugit enim nostrum nemo eveniet rem quam mollitia ipsam autem, quod sunt, voluptatum qui. Quidem facilis ex voluptas, odio dolores hic quis facere aperiam eaque accusamus tenetur quod voluptatum provident! Sequi ducimus officia voluptatem. Dolorem consequuntur architecto obcaecati reprehenderit voluptas sequi expedita?</p>
+            <p><a href="#main">메인페이지로 이동</a></p>
+        </div>
+        <div data-role="footer">
+            <h2>인천일보 아카데미</h2>
+        </div>
+    </div>
+
+    <div data-role="page" id="sub2">
+        <div data-role="header" data-theme="e">
+            <h1>Sub2 페이지</h1>
+        </div>
+        <div data-role="content">
+            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Sapiente a assumenda provident deleniti. Voluptates praesentium veritatis dolorum neque et ex, ullam in obcaecati sint nihil quaerat labore eum consectetur magnam similique incidunt repellendus impedit modi sapiente? Iure tenetur consequuntur odio est nemo obcaecati quidem sint ut, cumque voluptatibus porro cum sit hic, non totam. Nesciunt nulla esse blanditiis, fugit enim nostrum nemo eveniet rem quam mollitia ipsam autem, quod sunt, voluptatum qui. Quidem facilis ex voluptas, odio dolores hic quis facere aperiam eaque accusamus tenetur quod voluptatum provident! Sequi ducimus officia voluptatem. Dolorem consequuntur architecto obcaecati reprehenderit voluptas sequi expedita?</p>
+            <p><a href="#main">메인페이지로 이동</a></p>
+        </div>
+        <div data-role="footer">
+            <h2>인천일보 아카데미</h2>
+        </div>
+    </div>
+</body>
+</html>
